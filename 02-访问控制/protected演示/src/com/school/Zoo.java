@@ -6,7 +6,7 @@ package com.school;
  */
 public class Zoo {
     public void visit() {
-        Animal a = new Animal();
+        com.school.Animal a = new com.school.Animal();
         System.out.println("[同包类 Zoo]    访问属性 name = " + a.name);  // OK
         a.eat();                                                          // OK
     }

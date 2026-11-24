@@ -22,7 +22,7 @@ import com.school.Zoo;
 public class FarmTest {
     public static void main(String[] args) {
         new Zoo().visit();      // 情况一：同包访问，OK
-        new Dog().show();       // 情况二：跨包子类访问，OK
+        new com.farm.Dog().show();       // 情况二：跨包子类访问，OK
 
         // 情况三：跨包普通类访问 —— 编译报错，取消注释即可验证
         // Animal a = new Animal();
